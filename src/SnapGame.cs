@@ -35,11 +35,11 @@ namespace CardGames
 				}
 				else if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT))
 				{
-				myGame.PlayerHit(0);
+					myGame.PlayerHit(0);
 				}
 				else if (SwinGame.KeyTyped (KeyCode.vk_RSHIFT))
 				{
-					myGame.PlayerHit(2);
+					myGame.PlayerHit(1);
 				}
 			}
 		}
